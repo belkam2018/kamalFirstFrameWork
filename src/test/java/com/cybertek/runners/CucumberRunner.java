@@ -9,9 +9,9 @@ import org.junit.runner.RunWith;
     @RunWith(Cucumber.class)
     @CucumberOptions(
             features = "src/test/resources/feature"
-//            glue = "com/cybertek/step_defs"
-//            ,dryRun = false
-//            ,tags = "@register"
+            ,glue = "com.cybertek/step_defs"
+            ,dryRun = false
+            ,tags = "@select"
 
     )
     public class CucumberRunner{
